@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
-// const bcrypt = require('bcrypt');
 
-// Define the Candidate schema
 const candidateSchema = new mongoose.Schema({
     name: {
         type: String,
